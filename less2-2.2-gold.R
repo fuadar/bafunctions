@@ -8,7 +8,7 @@ library(ggfortify)
 
 
 # The head() command allows you to take a look at the first few rows of the dataset
-head(gold)
+head(gold,10)
 
 
 # The dim() command allows you to check the size of the dataset
