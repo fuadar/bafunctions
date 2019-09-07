@@ -6,7 +6,7 @@ library(fma)   #library of datasets
 library(forecast)
 
 
-
+#change
 # Load the time series data: beer
 # This data set contains the Australian
 # monthly beer production from Jan 91 - Aug 95
