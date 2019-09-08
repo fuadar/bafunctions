@@ -88,17 +88,18 @@ seasonplot(pigs)
 # Q.6 Create an ARIMA model using the auto.arima() command and the pigs data. 
 
 #AutoArima
-Fitted.Arima =
 auto.arima(pigs)
-#plot forecasted arima
-q=summary(Fitted.Arima,h=10)
-summary(q)
-plot(q)
+
 
 # Q.7 What are the paremeters for the ARIMA model using the data 'pigs'? 
 
 # In other words what is the model (ARIMA (p,d,q)(P,D,Q)) and what do the parameters mean?
+
+#in Rstudio.clouid
 #ARIMA(1,1,1)(2,0,1) 
+# In inStalled on laptop RStudio
+#ARIMA(2,1,0)(2,0,0)[12] 
+
 
 #p tells us how many lags of stationarized time should be used
 #d tells is integrated order of 0
@@ -106,12 +107,16 @@ plot(q)
 
 
 #Q.8 What is the AIC value?
+
+#In RStudio.cloud
 #AIC=3966.92
+#iN Laptop installed version
+#AIC=3954.06
 
 
 #Q.9 What is the AIC used for?
 
-#AIC is used for the relative quality of the statistical model and the ARIMA model will use
+#AIC is used for the relative quality and fit of the statistical model and the ARIMA model will use
 #this to  determine the best model 
 
 
