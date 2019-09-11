@@ -16,7 +16,9 @@ head(gold,10)
 # The second value indicates the number of columns
 str(gold)
 dim(gold)
+summary(gold)
 
+view(gold)
 # Next we create gold time series
 
 goldts <-ts(gold[,2])
